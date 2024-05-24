@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://lonely-ruby-firefly.cyclic.app/api/v1/reservation/send",
+        "https://mern-backend-ua1w.onrender.com/api/v1/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
